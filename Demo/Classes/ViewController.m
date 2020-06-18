@@ -72,8 +72,10 @@
 #pragma mark - Show Methods Sample
 
 - (void)show {
+//    [SVProgressHUD setDefaultAnimationType:(SVProgressHUDAnimationTypeNative)];
+    [SVProgressHUD setBackgroundColor:UIColor.clearColor];
     [SVProgressHUD show];
-    self.activityCount++;
+//    self.activityCount++;
 }
 
 - (void)showWithStatus {

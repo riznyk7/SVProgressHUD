@@ -22,6 +22,9 @@
 		6A58C8EC1CAE62F400BF604D /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A58C8EA1CAE62F400BF604D /* SVProgressAnimatedView.h */; };
 		6A58C8ED1CAE62F400BF604D /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A58C8EB1CAE62F400BF604D /* SVProgressAnimatedView.m */; };
 		6A58C8EE1CAE62F400BF604D /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A58C8EB1CAE62F400BF604D /* SVProgressAnimatedView.m */; };
+		BDCBBC95249A5C62005EF528 /* SVIndefiniteAnimatedCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCBBC93249A5C62005EF528 /* SVIndefiniteAnimatedCustomView.h */; };
+		BDCBBC96249A5C62005EF528 /* SVIndefiniteAnimatedCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCBBC94249A5C62005EF528 /* SVIndefiniteAnimatedCustomView.m */; };
+		BDCBBC98249A5C72005EF528 /* SVIndefiniteAnimatedCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCBBC94249A5C62005EF528 /* SVIndefiniteAnimatedCustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +55,8 @@
 		65F0220D15C858060030BBEF /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		6A58C8EA1CAE62F400BF604D /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		6A58C8EB1CAE62F400BF604D /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		BDCBBC93249A5C62005EF528 /* SVIndefiniteAnimatedCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedCustomView.h; sourceTree = "<group>"; };
+		BDCBBC94249A5C62005EF528 /* SVIndefiniteAnimatedCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +132,8 @@
 				6A58C8EB1CAE62F400BF604D /* SVProgressAnimatedView.m */,
 				4A9D7DCE1AB345540039B273 /* SVIndefiniteAnimatedView.h */,
 				4A9D7DCF1AB345540039B273 /* SVIndefiniteAnimatedView.m */,
+				BDCBBC93249A5C62005EF528 /* SVIndefiniteAnimatedCustomView.h */,
+				BDCBBC94249A5C62005EF528 /* SVIndefiniteAnimatedCustomView.m */,
 				65F0220D15C858060030BBEF /* SVProgressHUD.bundle */,
 				65F0220215C857EF0030BBEF /* Supporting Files */,
 			);
@@ -152,6 +159,7 @@
 				4A9D7DF41AB345E80039B273 /* SVIndefiniteAnimatedView.h in Headers */,
 				6A58C8EC1CAE62F400BF604D /* SVProgressAnimatedView.h in Headers */,
 				3CB14F9C1AFBCB57003C2641 /* SVRadialGradientLayer.h in Headers */,
+				BDCBBC95249A5C62005EF528 /* SVIndefiniteAnimatedCustomView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +220,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 65F021F115C857EF0030BBEF;
@@ -245,6 +254,7 @@
 				3CB14F9E1AFBCB57003C2641 /* SVRadialGradientLayer.m in Sources */,
 				4A9D7DF21AB345DD0039B273 /* SVIndefiniteAnimatedView.m in Sources */,
 				6A58C8EE1CAE62F400BF604D /* SVProgressAnimatedView.m in Sources */,
+				BDCBBC96249A5C62005EF528 /* SVIndefiniteAnimatedCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +266,7 @@
 				3CB14F9D1AFBCB57003C2641 /* SVRadialGradientLayer.m in Sources */,
 				4A9D7DD11AB345540039B273 /* SVIndefiniteAnimatedView.m in Sources */,
 				6A58C8ED1CAE62F400BF604D /* SVProgressAnimatedView.m in Sources */,
+				BDCBBC98249A5C72005EF528 /* SVIndefiniteAnimatedCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

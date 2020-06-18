@@ -33,7 +33,8 @@ typedef NS_ENUM(NSUInteger, SVProgressHUDMaskType) {
 
 typedef NS_ENUM(NSUInteger, SVProgressHUDAnimationType) {
     SVProgressHUDAnimationTypeFlat NS_SWIFT_NAME(flat),     // default animation type, custom flat animation (indefinite animated ring)
-    SVProgressHUDAnimationTypeNative NS_SWIFT_NAME(native)  // iOS native UIActivityIndicatorView
+    SVProgressHUDAnimationTypeNative NS_SWIFT_NAME(native),  // iOS native UIActivityIndicatorView
+    SVProgressHUDAnimationTypeCustom NS_SWIFT_NAME(custom)  // iOS native UIActivityIndicatorView
 };
 
 typedef void (^SVProgressHUDShowCompletion)(void);
